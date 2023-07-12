@@ -4,13 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 01 - Card Games</title>
+
+    <style>
+        body{
+            background-color: #CCCCCC;
+        }
+
+        .container{
+            background-color: #210D25;
+            margin: auto;
+
+            width: 1200px;
+        }
+        
+        .header{
+            padding: 20px;
+        }
+        
+        .flex-container{
+            background-color: #511A5B;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;          
+        }
+
+        .votacao{
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
 </head>
 <body>
-    <div>
-        <div>
+    <div class="container">
+        <div class="header">
             Primeira linha
         </div>
-        <div>
+        <div class="flex-container">
             <div>
                 <div>
                     Titulo segunda linha
@@ -22,7 +52,7 @@
                     tag input
                 </div>
             </div>
-            <div>
+            <div class="votacao">
                 <div>
                     imagem 1
                 </div>
