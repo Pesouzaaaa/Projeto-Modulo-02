@@ -15,20 +15,20 @@
             background-image: linear-gradient(to bottom, #1E0C21, #301135,#641E70);
             margin: auto;
 
-            width: 1200px;
+            width: 1500px;
             box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.363);
             border-radius: 10px;
         }
         
         .header{
-            padding: 10px 40px 25px 40px;
+            padding: 10px 30px 50px 30px;
         }
 
         .header-title{
             color: #FECD23;
             text-align: center;
             font-weight: 600;
-            font-size: 42px;
+            font-size: 60px;
 
             padding-bottom: 20px;
         }
@@ -36,8 +36,8 @@
         .header-text{
             color: #F2DEBF;
             padding: 10px;
-            font-size: 28px;
-            font-weight: 450;
+            font-size: 34px;
+            font-weight: 400;
             text-align: center;
         }
         
@@ -45,9 +45,37 @@
             background-image: linear-gradient(to bottom, #641E70, #1E0C21);
             display: flex;
             flex-direction: column;
-            padding: 20px; 
-            margin: 20px 30px 0px 30px; 
-            border-radius: 10px;        
+            margin: auto; 
+            border-radius: 10px;    
+            
+            width: 1400px;
+            justify-content: center;
+        }
+
+        .col-1{
+            color: white;
+            text-align: center;
+            font-size: 56px;
+            padding: 10px 10px 40px 10px;
+        }
+
+        .col-2{
+            display: flex;
+            justify-content: center;
+           
+        }
+
+        input{
+            width: 70%;
+            padding: 10px;
+            margin: 20px; 
+            font-size: 28px;
+            border-radius: 10px;
+        }
+
+        input:focus{
+            outline: none;
+            box-shadow: 0px 0px 10px #d217f383;
         }
 
         .votacao{
@@ -80,14 +108,14 @@
         </div>
         <div class="flex-container">
             <div>
-                <div>
+                <div class="col-1">
                     Digite os seus dados e escolha entre os três finalistas!
                 </div>
-                <div>
-                    tag input    
+                <div class="col-2">
+                    <input type="text" placeholder="Digite seu nome">   
                 </div>
-                <div>
-                    tag input
+                <div class="col-2">
+                    <input type="email" placeholder="Digite seu email">
                 </div>
             </div>
             <div class="votacao">
